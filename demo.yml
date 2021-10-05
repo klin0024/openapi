@@ -1,0 +1,15 @@
+swagger: '2.0'
+info:
+  description: 'demo'
+  version: 1.0.0
+  title: Demo API
+host: lb-tvuat-bks-18443.lbtwsys.com:18443
+basePath: /v1/timeline/discover
+schemes:
+  - https
+paths:
+  /productdetail:
+    get:
+      responses:
+        '200':
+          description: Success
